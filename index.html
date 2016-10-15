@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AWS Network Visualizer</title>
+  <meta charset=utf-8 />
+  <!-- Google Signin "scope" as metadata -->
+  <meta name="google-signin-scope" content="profile email">
+  <!-- Google Client ID. 
+    TODO: Allow this to be a configurable option -->
+<!--    <meta name=google-signin-client_id content=<CLIENT ID GOES HERE> -->
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+
+  <!-- Third Party Libraries -->
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.3.17.min.js" ></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script src="https://www.promisejs.org/polyfills/promise-done-7.0.4.min.js" async defer></script>
+
+  <script src="js/amazon-cognito.min.js" async defer></script>
+  <script type="text/javascript" src="js/vis.js" async defer></script>
+  <script src="js/loglevel.min.js" ></script>
+
+  <!-- Modules -->
+  <script src="js/config.js" ></script>
+  <script src="js/aws_helpers.js" ></script>
+  <script src="js/graph.js" ></script>
+  <script src="js/utils.js" ></script>
+
+  <!-- Application -->
+  <script src="js/app.js" ></script>
+
+  <link type=text/css rel=stylesheet href="https://www.gstatic.com/authtoolkit/css/gitkit.css" />
+  <link type="text/css" rel="stylesheet" href="css/vis.css">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+  
+<body>
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+    <div id=optionsContainer></div>
+    <div id=mynetwork></div>
+
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
