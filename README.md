@@ -1,5 +1,10 @@
 # aws-network-visualizer
 
+# Screenshots
+
+![screenshot1](docs/screenshot1.png)
+![screenshot2](docs/screenshot2.png)
+
 ## MVP
 * Web frontend that collects AWS Flow Logs and graphs dependencies
 
@@ -17,3 +22,5 @@ Before running, you'll need to get start an AWS Cognito project and get a Google
 ## AWS Cognito notes
 * Add Google as an Identity provider with Client Secret in IAM
 * In order to restrict by domain , the Google App and client secret need to be created by 
+
+
