@@ -3,6 +3,11 @@
 ## MVP
 * Web frontend that collects AWS Flow Logs and graphs dependencies
 
+## Requirements
+This is intended to be used with AWS Account auth management + Google based user domain
+
+Before running, you'll need to get start an AWS Cognito project and get a Google client id.
+
 ## TODO
 * <s>PoC Graphing library</s>
 * <s>Create VPC Flow LogGroup</s>
